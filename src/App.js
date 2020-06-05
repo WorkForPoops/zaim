@@ -8,6 +8,9 @@ import store from './redux/redux-store';
 import './App.css'
 import Home from './components/Home/Home';
 import Payment from './components/Payment/Payment';
+import Navbar from './components/Navbar/Navbar';
+import Test from './components/Test/Test';
+import TinkoffPayment from './components/TinkoffPayment/TinkoffPayment';
 
 class App extends React.Component {
 
@@ -15,13 +18,13 @@ class App extends React.Component {
   //   this.props.initializeApp();
   // }
 
-  
-
   render() {
     return (
       <div>
-        <Home />
-        <Payment />
+        <Route path='/' exact render={ () => <Redirect to={'/home'}/> } />
+        <Route path='/home' render={ () => <Home /> }/>
+        <Route path='/payment' render={ () => <Payment /> }/>
+        <Route path='/tinkoff-payment' render={ () => <TinkoffPayment />} />
       </div>
     );
   }

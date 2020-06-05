@@ -95,7 +95,7 @@ export default function SliderRage() {
       </div>
       <div className={classes.root}>
       <Typography id="input-slider" gutterBottom>
-        Сумма займа
+        Срок займа (дней)
       </Typography>
       <Grid container spacing={2} alignItems="center">
         <Grid item>
@@ -127,7 +127,7 @@ export default function SliderRage() {
       </Grid>
 
     </div>
-    <p>{value + valueDay} руб.</p>
+    <p>{value + valueDay} тыс. руб.</p>
     </Grid>
     </Grid>
   </div>

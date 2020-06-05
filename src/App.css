@@ -10,3 +10,20 @@
   height: 100vh;
   margin-top: -25px;
 }
+/* 
+.hClass{
+  top: 70%;
+} */
+
+.bg_2{
+  background-image: url('./assets/images/bg_2.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -150px;
+}

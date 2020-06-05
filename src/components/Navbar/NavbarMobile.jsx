@@ -17,7 +17,7 @@ toggleCollapse = () => {
 
 render() {
   return (
-      <MDBNavbar color='inherit' dark expand="md" className="mt-4 pb-5 z-depth-0">
+      <MDBNavbar color='indigo' dark expand="md" className="z-depth-0">
         <MDBContainer>
           <MDBNavbarBrand>
               <NavLink class="navbar-brand" to="/home">
